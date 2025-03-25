@@ -78,7 +78,7 @@
     color: var(--clr--black);
     padding: 28px 0px;
 }
-.header-navbar a{
+.header-navbar-item{
     color: var(--clr--black);
     font-weight: 500;
     font-size: 16px;
@@ -136,7 +136,7 @@ option{
    position: relative;
    top: 9px;
 }
-.header-navbar-item-input > button{
+.konsultatsiya{
     margin-right: 20px;
     display: flex;
     align-items: center;
@@ -152,14 +152,15 @@ option{
     letter-spacing: 0.75%;
     text-align: center;
     vertical-align: middle;
+    
     transition: all 0.3s;
 }
-.header-navbar-item-input > button:hover,.hero-section-content > button:hover,.catalog-item-content > button:hover,.about-section-content > button:hover{
+.konsultatsiya:hover,.hero-section-content > button:hover,.catalog-item-content > button:hover,.about-section-content > button:hover{
     cursor: pointer;
     background-color: rgba(56, 56, 222, 0.5); 
     
 }
-.header-navbar-item-input > button:active,.hero-section-content > button:active,.catalog-item-content > button:active,.about-section-content > button:active{
+.konsultatsiya:active,.hero-section-content > button:active,.catalog-item-content > button:active,.about-section-content > button:active{
     cursor: pointer;
     transform: scale(0.80);
     
